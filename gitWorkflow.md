@@ -27,24 +27,24 @@ In terminal
 
 ## Remote/GitHub version control
 
-- git remote
+- `git remote`
     - Tells if you're on a remote branch.
-- git remote -v
+- `git remote -v`
     - Checks for remote connection. No response means no connection.
 - Create new repo in GitHub. Copy HTTPS URL. 
-- git remote add origin, *URL*
+- `git remote add origin, *URL*`
     - Origin if starting new, could be another branch if making changes.
-- git remote -v
+- `git remote -v`
     - Should now show fetch and push branches and URLs.
-- git push -u origin main
+- `git push -u origin main`
     - This connects main branch (local) with origin (remote).
     - -u sets upstream link that allows future pushes w/o specifying branches each time.
-- git push
+- `git push`
     - Pushes commits to remote branch after initial -u setup.
 
 ***For pulling files down from remote branch***
-- git fetch
+- `git fetch`
     - Gets info, but doesn't put repos in my work area.
-- git pull *or* git pull origin main
+- `git pull` *or* `git pull origin main`
     - Adds everything into working area.
     - Like doing fetch and merge at once.
